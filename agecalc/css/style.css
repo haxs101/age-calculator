@@ -1,0 +1,36 @@
+body {
+	font-family: courier;
+}
+#container {
+	text-align: center;
+	padding: 20px;
+}
+#form{
+	margin-top: 10px;
+}
+input[type='text'] {
+	padding: 5px 40px;
+	border: 2px solid #bdc3c7;
+	outline: 0;
+	color: #2980b9;
+	font-weight: bold;
+}
+#calbtn {
+	border: 0;
+	padding: 10px 20px;
+	cursor: pointer;
+	background: #3937a0;
+	color: #8dcf12;
+	font-size: 20px;
+	outline: 0;
+}
+#calbtn:hover, #calbtn:active {
+	background-color: #f70bbc;
+	outline: 0;
+}
+span {
+	display: inline-block;
+	font-size: 45px;
+	font-weight: bold;
+	color: #074de4;
+}
